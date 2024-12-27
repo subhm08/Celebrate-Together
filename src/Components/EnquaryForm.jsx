@@ -29,15 +29,15 @@ const EnquaryForm = () => {
     console.log(userData);
 
     // send form data to backend
-    // try {
-    //   const response = await axios.post('http://localhost:3000/enquiries', userData);
-    //   // console.log(response);
-    //   if (response.ok) {
-    //     console.log('data sent')
-    //   }
-    // } catch (error) {
-    //   console.log("error msg:", error);
-    // }
+    try {
+      const response = await axios.post('http://localhost:3000/enquiries', userData);
+      // console.log(response);
+      if (response.ok) {
+        console.log('data sent')
+      }
+    } catch (error) {
+      console.log("error msg:", error);
+    }
   }
    return (
       <div className='text-amber-900 px-8 py-8 '>

@@ -2,7 +2,7 @@ const IMAGES=[
     {
         "id": 1,
         "name": "Wedding",
-        "img": "wedding.jpg"
+        "img": "Images//wedding.jpg"
     },
     {
         "id": 2,

@@ -8,18 +8,16 @@ import Services from "./Components/Services";
 import Enquary from "./Components/Enquary";
 import Plans from "./Components/Plans";
 import Footer from "./Components/Footer";
-import EmquaryForm from "./Components/EnquaryForm";
-import DynamicForm from "./Components/Customize";
-import Login from "./Components/Login";
+
 function App() {
   const [screenLoading , setScreenLoading] = useState(false);// make it false
 
-  // useEffect(() => {
-  //   setScreenLoading(true);
-  //   setTimeout(() => {
-  //     setScreenLoading(false);
-  //   }, 10000);
-  // }, []);
+  useEffect(() => {
+    setScreenLoading(true);
+    setTimeout(() => {
+      setScreenLoading(false);
+    }, 10000);
+  }, []);
 
   return(
       screenLoading ? (<Loader/>) :
@@ -31,7 +29,7 @@ function App() {
       <Services/>
       <Enquary/>
       <Plans/>
-      <DynamicForm/>
+      {/* <DynamicForm/> */}
       <Footer/>
       
 

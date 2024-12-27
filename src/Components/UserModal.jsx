@@ -22,7 +22,7 @@ const UserModal = () => {
     }
     return (
         
-        <div className='dropdown-menu absolute right-0 z-10  my-2'>
+        <div className='dropdown-menu absolute right-0 z-10 my-2 bg-[rgba(255, 255, 255, 1)] backdrop-blur-2xl '>
             <div class="bg-dark-100 text-gray-700 flex items-center justify-center">
                 {
                     isAlreadyAccount ? (

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+// import newLogo.jpg from public/Images folder
+// import logo from '../../public/logoNew.jpg';
 import Login from './Login';
 import UserModal from './UserModal';
 const Navbar = () => {
@@ -43,7 +45,7 @@ const Navbar = () => {
         <button 
           className=' relative text-lg bg-white text-amber-600 px-4 py-2 rounded-lg font-mono font-bold hover:text-amber-800 hover:bg-slate-100'
           onClick={OpenLoginWindow}
-        >Login</button>
+        >{isLoginOpen ? (<i className='bi bi-x-lg'></i>) : "Login"}</button>
         {isLoginOpen && <UserModal/>}
       </div>
     </div>
