@@ -4,6 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+/utils
+/.env
+dish.json
+MenuData.json
 
 # testing
 /coverage
