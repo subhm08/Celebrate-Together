@@ -1,8 +1,12 @@
 import React from 'react'
-import Signup from './Signup';
 import Login from './Login';
+import SignUp from './SignupPage';
 
 const UserModal = () => {
+    const [isSidebarOpen, setIsSidebarOpen] =React.useState(false);
+
+  const openSidebar = () => setIsSidebarOpen(true);
+  const closeSidebar = () => setIsSidebarOpen(false);
     const [isAlreadyAccount, setIsAlreadyAccount] = React.useState(false);
     const [openLogin, setOpenLogin] = React.useState(true);
     const [openSignup, setOpenSignup] = React.useState(true);
@@ -27,7 +31,7 @@ const UserModal = () => {
                 {
                     isAlreadyAccount ? (
                         <><div class="w-full max-w-md p-8 space-y-6 bg-dark-200 rounded-lg shadow-xl">
-                              <Signup/>
+                             <Login/>
                             <p class="text-center text-sm">
                                 <a  class="text-amber-400 hover:underline cursor-pointer" onClick={loginOpener}>{anchorText}</a>
                             </p>
@@ -35,7 +39,7 @@ const UserModal = () => {
                         </>
                     ) : (
                         <><div class="w-full max-w-md p-8 space-y-6 bg-dark-200 rounded-lg shadow-xl">
-                            <Login/>
+                            <SignUp/>
                             <p class="text-center text-sm">
                                 <a  class="text-amber-400 hover:underline cursor-pointer" onClick={signupOpener}>{anchorText}</a>
                             </p>

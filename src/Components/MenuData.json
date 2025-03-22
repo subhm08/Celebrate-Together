@@ -1,0 +1,153 @@
+{
+  "categories": [
+    {
+      "type": "Vegetarian",
+      "plates": [
+        {
+          "id": 1,
+          "title": "Basic Veg Thali",
+          "description": "A simple yet delicious vegetarian meal.",
+          "dishes": {
+            "Main Course": [
+              "Dal Tadka",
+              "Jeera Rice",
+              "Roti",
+              "Seasonal Vegetable Curry"
+            ],
+            "Sides": [
+              "Green Salad",
+              "Papad",
+              "Pickle"
+            ],
+            "Dessert": [
+              "Gulab Jamun"
+            ]
+          },
+          "price": 299,
+          "dishCount": 8
+        },
+        {
+          "id": 2,
+          "title": "Premium Veg Platter",
+          "description": "Rich and flavorful vegetarian delicacies.",
+          "dishes": {
+            "Main Course": [
+              "Paneer Butter Masala",
+              "Veg Biryani",
+              "Butter Naan",
+              "Malai Kofta"
+            ],
+            "Sides": [
+              "Kadai Vegetable",
+              "Veg Kebabs",
+              "Tomato Soup"
+            ],
+            "Dessert": [
+              "Rasmalai"
+            ]
+          },
+          "price": 499,
+          "dishCount": 8
+        },
+        {
+          "id": 3,
+          "title": "Deluxe Veg Feast",
+          "description": "An extravagant vegetarian spread for special occasions.",
+          "dishes": {
+            "Main Course": [
+              "Shahi Paneer",
+              "Vegetable Pulao",
+              "Lachha Paratha",
+              "Dum Aloo"
+            ],
+            "Sides": [
+              "Hara Bhara Kebab",
+              "Paneer Tikka",
+              "Sweet Corn Soup"
+            ],
+            "Dessert": [
+              "Gajar Halwa",
+              "Fruit Salad"
+            ]
+          },
+          "price": 699,
+          "dishCount": 10
+        }
+      ]
+    },
+    {
+      "type": "Non-Vegetarian",
+      "plates": [
+        {
+          "id": 1,
+          "title": "Basic Non-Veg Thali",
+          "description": "Affordable and tasty non-vegetarian meal.",
+          "dishes": {
+            "Main Course": [
+              "Chicken Curry",
+              "Steamed Rice",
+              "Roti"
+            ],
+            "Sides": [
+              "Green Salad",
+              "Fish Fry",
+              "Pickle"
+            ],
+            "Dessert": [
+              "Gulab Jamun"
+            ]
+          },
+          "price": 349,
+          "dishCount": 8
+        },
+        {
+          "id": 2,
+          "title": "Premium Non-Veg Platter",
+          "description": "A luxurious non-vegetarian feast.",
+          "dishes": {
+            "Main Course": [
+              "Tandoori Chicken",
+              "Mutton Rogan Josh",
+              "Garlic Naan",
+              "Biryani"
+            ],
+            "Sides": [
+              "Fish Tikka",
+              "Egg Curry",
+              "Tomato Soup"
+            ],
+            "Dessert": [
+              "Kulfi"
+            ]
+          },
+          "price": 699,
+          "dishCount": 8
+        },
+        {
+          "id": 3,
+          "title": "Deluxe Non-Veg Feast",
+          "description": "A grand non-vegetarian selection to impress your guests.",
+          "dishes": {
+            "Main Course": [
+              "Butter Chicken",
+              "Prawn Curry",
+              "Stuffed Paratha",
+              "Egg Biryani"
+            ],
+            "Sides": [
+              "Chicken Tikka",
+              "Mutton Seekh Kebab",
+              "Hot and Sour Soup"
+            ],
+            "Dessert": [
+              "Chocolate Mousse",
+              "Caramel Custard"
+            ]
+          },
+          "price": 899,
+          "dishCount": 10
+        }
+      ]
+    }
+  ]
+}

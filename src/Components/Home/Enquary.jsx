@@ -1,5 +1,6 @@
 import React from 'react'
-import EnquaryForm from './EnquaryForm';
+// import EnquaryForm from './EnquaryForm';
+import EnquaryForm from '../EnquaryForm';
 const Enquary = () => {
   const steps = [
     { id: 1, name: "Step 1", description: "Book your enquiry with us."},
